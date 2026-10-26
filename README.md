@@ -4,6 +4,8 @@ Two dark themes for [Zed](https://zed.dev), ported from
 [James Sauer’s GDScript Theme for VS Code](https://gitlab.com/JamesSauer/GDScript-Theme-for-VSCode).
 The original theme supplies the palette; this project adapts its colors and styles to Zed.
 
+[Preview and download both themes on zed-themes.com](https://zed-themes.com/themes/mLfTbfEpDD51YDtyWMLt1).
+
 The source theme was checked against GitLab’s latest
 [master revision, `1dbd193`](https://gitlab.com/JamesSauer/GDScript-Theme-for-VSCode/-/commit/1dbd193e598ef5d37a029e106ec0601456113123),
 on October 26, 2026. Its theme file is byte-for-byte identical to the installed VS Code
@@ -17,6 +19,14 @@ extension version 1.0.2 used for this port. GitLab’s package metadata still sa
 | **GDScript — Godot** | The original theme’s GDScript palette applied across languages: pink keywords, blue functions, yellow strings, mint numbers, and plain gray comments. |
 
 Both variants share the dark blue-gray interface, cursor and selection colors, and terminal palette.
+
+### GDScript
+
+![GDScript theme in Zed with a JavaScript sample](screenshots/gdscript.jpg)
+
+### GDScript — Godot
+
+![GDScript — Godot theme in Zed with the same JavaScript sample](screenshots/gdscript-godot.jpg)
 
 ## Install
 
