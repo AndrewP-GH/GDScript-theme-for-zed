@@ -20,6 +20,10 @@ extension version 1.0.2 used for this port. GitLab’s package metadata still sa
 
 Both variants share the dark blue-gray interface, cursor and selection colors, and terminal palette.
 
+Markdown previews use the original editor’s near-white `#EEFFFF` foreground.
+Normal file and folder labels use VS Code’s opaque `#CCCCCC` UI foreground.
+Zed shares these text roles with other interface labels, so those labels inherit the same colors.
+
 ### GDScript
 
 ![GDScript theme in Zed with a JavaScript sample](screenshots/gdscript.jpg)
