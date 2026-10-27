@@ -22,6 +22,7 @@ Both variants share the dark blue-gray interface, cursor and selection colors, a
 
 Markdown previews use the original editor’s near-white `#EEFFFF` foreground.
 Normal file and folder labels use VS Code’s opaque `#CCCCCC` UI foreground.
+Preview links use VS Code’s `#3794FF` link foreground.
 Zed shares these text roles with other interface labels, so those labels inherit the same colors.
 
 ### GDScript
@@ -56,6 +57,16 @@ and select the repository directory containing `extension.toml`.
 VS Code uses TextMate scopes; Zed uses syntax captures. Some context-dependent colors,
 including language-specific attributes and nested JSON keys, cannot be represented exactly
 by a shared theme. Zed also combines some interface roles that VS Code colors separately.
+
+Markdown preview and UI text selections use `#5C84B2`, sampled from VS Code’s Markdown
+preview on macOS. Editor selections keep `#264F78`. VS Code’s preview selection comes
+from its browser/platform rendering and can vary across systems.
+Search highlights use VS Code’s `#515C6A` current-match and `#EA5C0055` other-match backgrounds.
+
+In Zed 1.25.3, preview inline-code text shares the body foreground, and its background
+comes from the editor foreground at 8% opacity. VS Code styles these separately with
+gold `#D7BA7D` text and a translucent background. Matching those independently requires
+a change to Zed’s renderer; a theme cannot reproduce them exactly.
 
 The **GDScript — Godot** variant applies its palette globally; it does not switch colors
 based on the current language. This extension provides colors only. Install Zed’s separate
